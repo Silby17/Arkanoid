@@ -1,0 +1,60 @@
+
+# Level 1
+# Single block direct hit
+
+
+START_LEVEL
+level_name: The Gates
+ball_velocities:45,500 46,500 47,500
+background:image(background_images/LFCGates.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/liverpool_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:24
+START_BLOCKS
+-
+-
+-rwr-------wrw
+-wrw-------rwr
+-rwr-------wrw
+-wrw-------rwr
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: LFC
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:image(background_images/LFCWNWA.jpg)
+paddle_speed:600
+paddle_width:280
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:8
+START_BLOCKS
+-
+-
+-
+-
+-
+-
+--r---------w
+--------------
+--w---------r
+--------------
+--r---------w
+--------------
+--w---------r
+
+
+END_BLOCKS
+END_LEVEL
